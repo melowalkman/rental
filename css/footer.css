@@ -1,0 +1,506 @@
+/*новые стили которыя вывел*/
+
+.edina_tm_footer_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: left;
+	padding-bottom: 23px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+
+.edina_tm_footer_wrap .service_icon{
+	margin-bottom: 18px;
+	display: inline-block;
+}
+
+.edina_tm_footer_wrap ul.total .inner_list span{position: absolute;}
+.edina_tm_footer_wrap ul.total .inner_list .first{
+	top: 0px;
+	left: 0px;
+}
+.edina_tm_footer_wrap .service_definition p{color: #eee;}
+
+.edina_tm_footer_wrap .service_title h3{
+	font-size: 20px;
+	color: #fff;
+}
+
+.footer-text
+{
+ text-align: left !important;
+}
+
+.footer-text .inner_list{
+	padding: 0px 0px 30px 0px;
+}
+
+.edina_tm_footer_wrap .service_title h3
+{
+	padding-bottom: 10px;
+}
+
+.little{
+	font-size: 12px;
+	padding: 10px 0px 0px 0px;
+}
+
+#footer
+{
+	padding-right: 20px;
+	padding-right: 20px;
+}
+
+#footer2
+{
+	padding-left: 20px;
+}
+
+
+@media (max-width: 480px){
+
+.edina_tm_footer_wrap{
+
+	padding-left: 25px !important;
+}
+
+}
+
+
+/*новые стили которыя вывел*/
+
+
+
+/*---------------------------------------------------*/
+/*	14) EDINA FOOTER
+/*---------------------------------------------------*/
+
+.edina_tm_footer_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+	background-color: #060606;
+	padding: 0px 50px 0px 50px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_footer_wrap p{color: #fff;}
+.edina_tm_footer_wrap p a{
+	text-decoration: none;
+	color: #fff;
+	font-family: "Montserrat";
+	font-weight: 600;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_footer_wrap p a:hover{color: #ff4f20;}
+
+
+
+
+@media (max-width: 1040px){
+	#footer
+{
+	padding-right: 0px;
+	padding-right: 0px;
+}
+
+#footer2
+{
+	padding-left: 0px;
+}
+.edina_tm_footer_wrap{
+
+	padding: 0px;
+}
+
+
+
+/*---------------------------------------------------*/
+/*	10) EDINA NEWS
+/*---------------------------------------------------*/
+
+.edina_tm_news_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #000;
+	margin-bottom: 70px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.edina_tm_news_wrap .link_news{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 22;
+}
+.edina_tm_news_wrap .edina_tm_list_wrap .inner_list{
+	background-color: #060606;
+    border-radius: 3px;
+}
+.edina_tm_news_wrap .definitions_wrap{padding: 40px 30px 47px 30px;}
+.edina_tm_news_wrap .image_wrap{position: relative;}
+.edina_tm_news_wrap .image_wrap .big{display: none;}
+.edina_tm_news_wrap .image_wrap .small{display: block;}
+.edina_tm_news_wrap .news_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.edina_tm_news_wrap .date_wrap{margin-bottom: 16px;}
+.edina_tm_news_wrap .date_wrap p{
+	color: #eee;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.edina_tm_news_wrap .full_def{display: none;}
+.edina_tm_news_wrap .date_wrap p a{
+	color: #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 23px;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.edina_tm_news_wrap .date_wrap p a:after{
+	position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: #eee;
+    top: 50%;
+    right: 100%;
+    margin-right: 8px;
+}
+.edina_tm_news_wrap .date_wrap p a:hover{color: #fd4d4d;}
+.edina_tm_news_wrap .title_holder{margin-bottom: 18px;}
+.edina_tm_news_wrap .title_holder h3{
+	color: #fff;
+    line-height: 1.4;
+}
+.edina_tm_news_wrap .title_holder h3 a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    display: block;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.edina_tm_news_wrap .title_holder h3 a:hover{color: #fd4d4d;}
+.edina_tm_news_wrap .definition{margin-bottom: 28px;}
+.edina_tm_news_wrap .definition p{color: #eee;}
+.edina_tm_news_wrap .read_more a{
+	color: #fff;
+    text-decoration: none;
+    background-color: #ed2629;
+    padding: 8px 35px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    border-radius: 3px;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.edina_tm_news_wrap .read_more a:hover{background-color: #555;}
+.edina_tm_popup_share_wrap{display: none;}
+#edina_tm_popup_blog{
+	opacity: 0;
+	visibility: hidden;
+	
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background-color: #000;
+	padding: 50px 0px;	
+	z-index: 99999999;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+	
+	-webkit-transition: all .2s ease;
+	   -moz-transition: all .2s ease;
+	    -ms-transition: all .2s ease;
+	     -o-transition: all .2s ease;
+	        transition: all .2s ease;
+}
+#edina_tm_popup_blog.opened{
+	opacity: 1;
+	visibility: visible;
+}
+#edina_tm_popup_blog .definitions_wrap{
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .full_def{
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .full_def p{
+	display: inline-block;
+	color: #eee;
+}
+#edina_tm_popup_blog .definition{display: none;}
+#edina_tm_popup_blog .inner_popup{
+	width: 100%;
+	float: left;
+	clear: both;
+	position: relative;
+}
+#edina_tm_popup_blog .date_wrap p{
+	color: #eee;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+#edina_tm_popup_blog .date_wrap p a{
+	color: #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 23px;
+}
+#edina_tm_popup_blog .image_wrap{
+	margin-bottom: 45px;
+	position: relative;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .image_wrap .big{
+	display: block;
+	min-height: 250px;
+}
+#edina_tm_popup_blog .image_wrap .small{display: none;}
+#edina_tm_popup_blog .image_wrap .news_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#edina_tm_popup_blog .date_wrap{
+	margin-bottom: 16px;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .date_wrap p a:before{
+	position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: #eee;
+    top: 50%;
+    right: 100%;
+    margin-right: 8px;
+}
+#edina_tm_popup_blog .title_holder{
+	margin-bottom: 18px;
+	width: 100%;
+	float: left;
+}
+#edina_tm_popup_blog .title_holder h3{
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: "Montserrat";
+	color: #fff;
+}
+#edina_tm_popup_blog .title_holder h3 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    display: block;
+}
+#edina_tm_popup_blog .definition p{color: #eee;}
+#edina_tm_popup_blog .read_more{display: none;}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap{
+	display: block;
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-bottom: 5px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul li{
+	display: inline-block;
+	margin: 0px 15px 0px 0px;
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    font-family: "Montserrat";
+    font-weight: 600;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#edina_tm_popup_blog .edina_tm_popup_share_wrap ul li a:hover{color: #fd4d4d;}
+#edina_tm_popup_blog .close{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	display: block;
+	z-index: 111111111;
+}
+#edina_tm_popup_blog .close a{
+	position: relative;
+	display: block;
+	height: 30px;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+#edina_tm_popup_blog .close a:before{
+	position: absolute;
+	content: "";
+	width: 4px;
+	height: 20px;
+	background-color: #E91F22;
+	top: 5px;
+	right: 13px;
+	transform: rotate(45deg);
+}
+#edina_tm_popup_blog .close a:after{
+	position: absolute;
+	content: "";
+	width: 4px;
+	height: 20px;
+	background-color: #E91F22;
+	top: 5px;
+	right: 13px;
+	transform: rotate(135deg);
+}
+
+
+
+/*---------------------------------------------------*/
+/*	16) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
+/*---------------------------------------------------*/
+
+@media (max-width: 1400px) {
+	.edina_tm_to_top_wrap{position: relative;float: right;bottom: 61px;}
+	.edina_tm_to_top_wrap.opened{bottom: 61px;}
+}
+@media (max-width: 1200px) {
+	.edina_tm_about_wrap .rightbox{padding: 0px 70px 0px 0px;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 25%;}
+}
+@media (max-width: 1040px) {
+	.edina_tm_trigger{display: block;}
+	.edina_tm_navigation_wrap .nav_list_wrap{display: none;}
+	.edina_tm_navigation_wrap .logo{position: relative;top:-1px;}
+	.edina_tm_navigation_wrap{padding: 30px 0px;background-color: rgba(0,0,0,.95);}
+	.edina_tm_list_wrap[data-column="4"] ul.total > li{width: 33.3333%;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 33.3333%;}
+	.edina_tm_about_wrap .rightbox{padding: 0px 50px 0px 0px;}
+	.edina_tm_hero_header .hero_title .first{font-size: 42px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 42px;}
+	.edina_tm_animation_text_word{font-size: 18px;}
+	#edina_tm_popup_blog .close{right: 0px;}
+}
+@media (max-width: 768px) {
+	.edina_tm_navigation_wrap{padding: 25px 0px;}
+	.edina_tm_about_wrap .leftbox{display: none;}
+	.edina_tm_about_wrap .rightbox{width: 100%;padding: 0px;}
+	.edina_tm_about_wrap .rightbox .name_holder{text-align: center;}
+	.edina_tm_about_wrap .definition{text-align: center;}
+	.edina_tm_about_wrap .sharebox{text-align: center;}
+	.edina_tm_list_wrap[data-column="3"] ul.total > li{width: 50%;}
+	.edina_tm_list_wrap[data-column="4"] ul.total > li{width: 50%;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 50%;}
+	.edina_tm_portfolio_filter li{margin: 0px 15px 0px 0px;}
+	.edina_tm_portfolio_list > li{width: 50%;}
+	.edina_tm_contact_wrap .short_contact ul li{width: 100%;margin-bottom: 20px;}
+	.edina_tm_main_title_holder_wrap .number_wrap{width: 130px;height: 70px;line-height: 70px;}
+	.edina_tm_main_title_holder_wrap .number_wrap span{font-size: 36px;}
+	.edina_tm_main_title_holder_wrap .title_wrap span{font-size: 36px;}
+	.edina_tm_main_title_holder_wrap{padding-bottom: 75px;}
+	.edina_tm_universal_box_wrap .content.partners{padding: 60px 0px;}
+	.edina_tm_hero_header .hero_title .first{font-size: 33px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 33px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 15px;}
+	.edina_tm_animation_text_word{font-size: 17px;}
+	.edina_tm_main_demos_list_wrap ul li{width: 50%;}
+	.edina_tm_about_wrap.homepage_second .rightbox{padding-left: 0px;}
+}
+@media (max-width: 480px) {
+	.edina_tm_navigation_wrap{padding: 20px 0px;}
+	.edina_tm_top_bar_wrap ul li{margin: 0px;}
+	.edina_tm_list_wrap[data-column="2"] ul.total > li{width: 100%;}
+	.edina_tm_list_wrap[data-column="3"] ul.total > li{width: 100%;}
+	.edina_tm_list_wrap[data-column="4"] ul.total > li{width: 100%;}
+	.edina_tm_list_wrap[data-column="5"] ul.total > li{width: 100%;}
+	.edina_tm_portfolio_list{margin-left: 0px;}
+	.edina_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
+	.edina_tm_to_top_wrap{right: 0px;}
+	.edina_tm_discover_wrap{right: 12px;}
+	.edina_tm_news_wrap .date_wrap p{font-size: 13px;}
+	.edina_tm_news_wrap .date_wrap p a{font-size: 13px;}
+	.edina_tm_news_wrap .title_holder h3 a{font-size: 20px;}
+	.edina_tm_main_title_holder_wrap .number_wrap{width: 115px;height: 60px;line-height: 60px;}
+	.edina_tm_main_title_holder_wrap .number_wrap span{font-size: 32px;}
+	.edina_tm_main_title_holder_wrap .title_wrap span{font-size: 32px;}
+	.edina_tm_main_title_holder_wrap{padding-bottom: 65px;}
+	.edina_tm_universal_box_wrap .content.partners{padding: 50px 0px;}
+	.edina_tm_hero_header .hero_title .first{font-size: 23px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third h3{font-size: 20px;}
+	.edina_tm_universal_box_wrap .hero_title.homepage_third span{font-size: 12px;}
+	.edina_tm_animation_text_word{font-size: 15px;}
+	.edina_tm_main_demos_list_wrap ul{margin-left: 0px;}
+	.edina_tm_main_demos_list_wrap ul li{width: 100%;padding: 0px;}
+	.container{padding: 0px 20px !important;}
+}	
