@@ -366,6 +366,14 @@ img.svg{
 /*	05) EDINA CONTENT
 /*---------------------------------------------------*/
 
+.hero_title h2 {
+	color: #ff4f20;
+}
+.hero_title p{
+	color: #fff;
+	font-size: 16px;
+}
+
 .edina_tm_hero_header{
 	width: 100%;
 	height: auto;
