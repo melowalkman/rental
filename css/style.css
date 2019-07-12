@@ -1004,8 +1004,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.edina_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/jarallax/1.jpg);}
-.edina_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(0,0,0,.95);}
+.edina_tm_universal_box_wrap .overlay_color.testimonial{background-color:rgba(0,0,0,.95);}
 .edina_tm_universal_box_wrap .content.testimonial{padding-bottom: 95px;}
 .edina_tm_testimonial_wrap .carousel_wrap{
 	width: 100%;
@@ -1317,8 +1316,6 @@ img.svg{
 /*---------------------------------------------------*/
 /*	11) EDINA PARTNERS
 /*---------------------------------------------------*/
-
-.edina_tm_universal_box_wrap .overlay_image.partners{background-image: url(..//img/jarallax/2.jpg);}
 .edina_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.95);}
 .edina_tm_universal_box_wrap .content.partners{padding: 90px 0px;}
 .edina_tm_partners_wrap_total{
