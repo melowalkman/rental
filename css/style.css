@@ -5,26 +5,26 @@
 /*	This file is made for CURRENT TEMPLATE
 
 
-	01) EDINA BASE
-	02) EDINA HEADER
-	03) EDINA MOBILE MENU
-	04) EDINA HAMBURGER
-	05) EDINA CONTENT
-	06) EDINA ABOUT
-	07)	EDINA SERVICES
-	08)	EDINA PORTFOLIO
-	09) EDINA TESTIMONIALS
-	10) EDINA NEWS
-	11) EDINA PARTNERS
-	12) EDINA WORK TOGETHER
-	13) EDINA CONTACT
-	14) EDINA FOOTER
-	15) EDINA TO TOP
-	16) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
+	01) edina BASE
+	02) edina HEADER
+	03) edina MOBILE MENU
+	04) edina HAMBURGER
+	05) edina CONTENT
+	06) edina ABOUT
+	07)	edina SERVICES
+	08)	edina PORTFOLIO
+	09) edina TESTIMONIALS
+	10) edina NEWS
+	11) edina PARTNERS
+	12) edina WORK TOGETHER
+	13) edina CONTACT
+	14) edina FOOTER
+	15) edina TO TOP
+	16) edina MEDIA QUERIES (FOR SMALL DEVIVES)
 	
 
 /*---------------------------------------------------*/
-/*	01) EDINA BASE
+/*	01) edina BASE
 /*---------------------------------------------------*/
 
 html {
@@ -90,7 +90,7 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	02) EDINA HEADER
+/*	02) edina HEADER
 /*---------------------------------------------------*/
 
 .edina_tm_header{
@@ -215,7 +215,7 @@ img.svg{
 .edina_tm_navigation_wrap .social_icons_wrap > ul > li a:hover{color: #ff4f20;}
 
 /*---------------------------------------------------*/
-/*	03) EDINA MOBILE MENU
+/*	03) edina MOBILE MENU
 /*---------------------------------------------------*/
 
 .edina_tm_mobile_menu_wrap{
@@ -258,7 +258,7 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	04) EDINA HAMBURGER
+/*	04) edina HAMBURGER
 /*---------------------------------------------------*/
 
 .edina_tm_trigger{
@@ -363,7 +363,7 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	05) EDINA CONTENT
+/*	05) edina CONTENT
 /*---------------------------------------------------*/
 
 .hero_title h2 {
@@ -531,7 +531,7 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	06) EDINA ABOUT
+/*	06) edina ABOUT
 /*---------------------------------------------------*/
 
 .edina_tm_about_wrap{
@@ -653,7 +653,7 @@ img.svg{
 .edina_tm_about_wrap .rightbox .sharebox ul li a:hover{color: #ed2629;}
 
 /*---------------------------------------------------*/
-/*	07)	EDINA SERVICES
+/*	07)	edina SERVICES
 /*---------------------------------------------------*/
 
 .edina_tm_services_total_wrap{
@@ -832,7 +832,7 @@ img.svg{
 .edina_tm_services_wrap .service_definition p{color: #eee;}
 
 /*---------------------------------------------------*/
-/*	08)	EDINA PORTFOLIO
+/*	08)	edina PORTFOLIO
 /*---------------------------------------------------*/
 
 .edina_tm_portfolio_wrap{
@@ -999,7 +999,7 @@ img.svg{
 .edina_tm_portfolio_list .list_inner .definition_portfolio .first a:hover{color: #ed2629;}
 
 /*---------------------------------------------------*/
-/*	09) EDINA TESTIMONIALS
+/*	09) edina TESTIMONIALS
 /*---------------------------------------------------*/
 
 .edina_tm_testimonial_wrap{
@@ -1067,7 +1067,7 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	10) EDINA NEWS
+/*	10) edina NEWS
 /*---------------------------------------------------*/
 
 .edina_tm_news_wrap{
@@ -1322,7 +1322,7 @@ img.svg{
 
 
 /*---------------------------------------------------*/
-/*	11) EDINA PARTNERS
+/*	11) edina PARTNERS
 /*---------------------------------------------------*/
 .edina_tm_universal_box_wrap .overlay_color.partners{background-color: rgba(0,0,0,.95);}
 .edina_tm_universal_box_wrap .content.partners{padding: 90px 0px;}
@@ -1357,7 +1357,7 @@ img.svg{
 .edina_tm_partners_wrap ul li{margin: 0px;}
 
 /*---------------------------------------------------*/
-/*	12) EDINA WORK TOGETHER
+/*	12) edina WORK TOGETHER
 /*---------------------------------------------------*/
 
 .edina_tm_work_together_total{
@@ -1406,7 +1406,7 @@ img.svg{
 .edina_tm_work_together_wrap .invite a:hover{background-color: #555;}
 
 /*---------------------------------------------------*/
-/*	13) EDINA CONTACT
+/*	13) edina CONTACT
 /*---------------------------------------------------*/
 
 .edina_tm_contact_wrap{
@@ -1498,7 +1498,7 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	15) EDINA TO TOP
+/*	15) edina TO TOP
 /*---------------------------------------------------*/
 
 .edina_tm_to_top_wrap{
@@ -1621,7 +1621,7 @@ img.svg{
 
 
 /*---------------------------------------------------*/
-/*	16) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	16) edina MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1400px) {
@@ -1768,12 +1768,12 @@ h5{
 }
 
 /*---------------------------------------------------*/
-/*	EDINA INFO
+/*	edina INFO
 /*---------------------------------------------------*/
 @charset "utf-8";
 	
 /*---------------------------------------------------*/
-/*	01) EDINA BASE
+/*	01) edina BASE
 /*---------------------------------------------------*/
 
 html {
@@ -1839,7 +1839,7 @@ img.svg{
 }
 
 /*---------------------------------------------------*/
-/*	EDINA INFO
+/*	edina INFO
 /*---------------------------------------------------*/
 
 .edina_tm_info_wrap{
@@ -1899,4 +1899,10 @@ img.svg{
 	padding-bottom: 0px;
 }
 
+}
+
+.second
+{
+	color: #fff;
+	margin-bottom: 20px; 
 }
