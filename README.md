@@ -1,2 +1,0 @@
-# rental
- technic site rental

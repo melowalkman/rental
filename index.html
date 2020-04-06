@@ -4,6 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="ru"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Спецтехника для строительных и земельных работ в Минске">
 <meta name="keywords"  content="Аренда мини-экскаваторов, мини-погрузчиков, экскаваторов-погрузчиков" />
@@ -19,10 +20,65 @@
 <link rel="stylesheet" href="css/popup.css">
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
+<meta name="yandex-verification" content="4457116510a512ba" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144346694-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144346694-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 723099702 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-723099702"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-723099702');
+</script>
+<!-- Event snippet for заказ conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-723099702/Yy6tCIzvsqYBELbA5tgC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Event snippet for заказ conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-723099702/Yy6tCIzvsqYBELbA5tgC'});
+</script>
+
 
 </head>
 
 <body>
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(54531463, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/54531463" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 <!-- WRAPPER ALL -->
 <div class="edina_tm_wrapper_all">
@@ -41,13 +97,14 @@
 			<div class="popup-content">
 					<form class="box" action="mail.php" method="post">
 					<label for="popupCheckboxOne" class="popup-closer">&#215;</label>
-					<div class="returnmessage" data-success="Ваша заявка отправлена!"></div>
-					<input type="text" class="form-control" name="user_name" placeholder="Например, Иван">
-					<input type="text" class="form-control" name="user_phone" placeholder="+375 29 333 33 33">
+					<input name="name" type="text" class="form-control" placeholder="Ваше имя" required="">
+					<input name="phone" id="phon" type="text" class="form-control"  placeholder="+375 (XX) XXX-XX-XX" required="">
 					<input type="submit" class="btn btn-primary" value="Отправить">
+					<div class="alert-msg" style="text-align: center; color: #fff;"></div>
 				</form>	
 			</div>
 		</div>
+		
 	</div>
     <!-- POPUP -->
 
@@ -70,11 +127,13 @@
 						<div class="social_icons_wrap">
 							<ul>
 								<li><a href="tel:+375293484194">+375 (29) 348-41-94</a></li>
+								<li><a href="tel:+375296058896">+375 (29) 605-88-96</a></li>
 								<li><a href="viber://chat?number=+375293484194"><i class="fab fa-viber"></i></a></li>
 								<li><a href="tg://resolve?domain=miniarenda"><i class="fab fa-telegram-plane"></i></a></li>
 							</ul>
 						</div>
 					</div>
+					<li class="main_phone"><a href="tel:+375293484194">+375 (29) 348-41-94</a></li>
 					<div class="edina_tm_trigger">
 						<div class="hamburger hamburger--collapse-r">
 							<div class="hamburger-box">
@@ -119,7 +178,7 @@
 								<span class="edina_tm_animation_text_word"></span></p>
 
 								<p>работаем круглосуточно, без выходных!</p><br/>
-								<h2>20<span>%</span> скидка!</h2>
+								<h2>скидки!</h2>
 								<p>при заказе техники от 3-х смен</p></br>
 							</div>
 						</div>
@@ -158,7 +217,7 @@
 									</div>
 									<div class="definitions_wrap">
 										<div class="date_wrap">
-											<p>Мини-погрузчик<a href="index.html">45 руб/час</a> </p>
+											<p>Мини-погрузчик<a href="index.html">от 45 руб/час</a> </p>
 										</div>
 										<div class="title_holder">
 											<h3><a href="index.html">BOBCAT S205</a></h3>
@@ -211,7 +270,7 @@
 									</div>
 									<div class="definitions_wrap">
 										<div class="date_wrap">
-											<p>Мини-погрузчик<a href="index.html">45 руб/час</a> </p>
+											<p>Мини-погрузчик<a href="index.html">от 45 руб/час</a> </p>
 										</div>
 										<div class="title_holder">
 											<h3><a href="index.html">BOBCAT S773</a></h3>
@@ -258,13 +317,13 @@
 								<div class="inner_list">
 									<div class="image_wrap">
 										<img class="small" src="img/blog/500x350.jpg" alt="" />
-										<img class="big" src="img/tehnic/KomatsuРС35/1170x450.jpg" alt="" />
-										<div class="news_image" data-url="img/tehnic/KomatsuРС35/1.jpg"></div>
+										<img class="big" src="img/tehnic/Komatsu/1170x450.jpg" alt="" />
+										<div class="news_image" data-url="img/tehnic/Komatsu/1.jpg"></div>
 										<a class="link_news" href="index.html"></a>
 									</div>
 									<div class="definitions_wrap">
 										<div class="date_wrap">
-											<p>Мини-экскаватор<a href="index.html">45 руб/час</a> </p>
+											<p>Мини-экскаватор<a href="index.html">от 45 руб/час</a> </p>
 										</div>
 										<div class="title_holder">
 											<h3><a href="index.html">Komatsu РС35</a></h3>
@@ -314,13 +373,13 @@
 								<div class="inner_list">
 									<div class="image_wrap">
 										<img class="small" src="img/blog/500x350.jpg" alt="" />
-										<img class="big" src="img/tehnic/CASE_CX26C/1170x450.jpg" alt="" />
-										<div class="news_image" data-url="img/tehnic/CASE_CX26C/1.jpg"></div>
+										<img class="big" src="img/tehnic/CASE/1170x450.jpg" alt="" />
+										<div class="news_image" data-url="img/tehnic/CASE/1.jpg"></div>
 										<a class="link_news" href="index.html"></a>
 									</div>
 									<div class="definitions_wrap">
 										<div class="date_wrap">
-											<p>Мини-экскаватор<a href="index.html">45 руб/час</a> </p>
+											<p>Мини-экскаватор<a href="index.html">от 45 руб/час</a> </p>
 										</div>
 										<div class="title_holder">
 											<h3><a href="index.html">CASE CX26C</a></h3>
@@ -366,8 +425,8 @@
 								<div class="inner_list">
 									<div class="image_wrap">
 										<img class="small" src="img/blog/500x350.jpg" alt="" />
-										<img class="big" src="img/tehnic/САТ_444F2/1170x450.jpg" alt="" />
-										<div class="news_image" data-url="img/tehnic/САТ_444F2/1.jpg"></div>
+										<img class="big" src="img/tehnic/CAT/1170x450.jpg" alt="" />
+										<div class="news_image" data-url="img/tehnic/CAT/1.jpg"></div>
 										<a class="link_news" href="index.html"></a>
 									</div>
 									<div class="definitions_wrap">
@@ -466,7 +525,7 @@
 										<img class="small" src="img/blog/500x350.jpg" alt="" />
 										<img class="big" src="img/equipment/hydraulic/1170x450.jpg" alt="" />
 										<div class="news_image" data-url="img/equipment/hydraulic/1.jpg"></div>
-										<a class="link_news" href="index.html"></a>
+										<!-- <a class="link_news" href="index.html"></a> -->
 									</div>
 									<div class="definitions_wrap">
 										<div class="date_wrap">
@@ -496,7 +555,7 @@
 										<img class="small" src="img/blog/500x350.jpg" alt="" />
 										<img class="big" src="img/equipment/boer/1170x450.jpg" alt="" />
 										<div class="news_image" data-url="img/equipment/boer/1.jpg"></div>
-										<a class="link_news" href="index.html"></a>
+										<!-- <a class="link_news" href="index.html"></a> -->
 									</div>
 									<div class="definitions_wrap">
 										<div class="date_wrap">
@@ -525,11 +584,11 @@
 										<img class="small" src="img/blog/500x350.jpg" alt="" />
 										<img class="big" src="img/equipment/boer/1170x450.jpg" alt="" />
 										<div class="news_image" data-url="img/equipment/wills/1.jpg"></div>
-										<a class="link_news" href="index.html"></a>
+										<!-- <a class="link_news" href="index.html"></a> -->
 									</div>
 									<div class="definitions_wrap">
 										<div class="date_wrap">
-											<p>ВИЛЫ ПАЛЕТНЫЕ<a href="index.html">45 руб/час</a> </p>
+											<p>ВИЛЫ ПАЛЕТНЫЕ<a href="index.html">от 45 руб/час</a> </p>
 										</div>
 										<div class="title_holder">
 											<h3><a href="index.html">BOBCAT 107мм.</a></h3>
@@ -883,12 +942,12 @@
 						<h3>Аренда</h3>
 					</div>
 					<div class="service_definition">
-						<p><a href="#">Аренда Мини-погрузчика</a></p>
-						<p><a href="#">Аренда Мини-экскаватора</a></p>
-						<p><a href="#">Аренда Экскаватора</a></p>
-						<p><a href="#">Аренда Гидромолота</a></p>
-						<p><a href="#">Аренда Вил палетных</a></p>
-						<p><a href="#">Аренда Гидробура</a></p>
+						<p>Аренда Мини-погрузчика</p>
+						<p>Аренда Мини-экскаватора</p>
+						<p>Аренда Экскаватора</p>
+						<p>Аренда Гидромолота</p>
+						<p>Аренда Вил палетных</p>
+						<p>Аренда Гидробура</p>
 					</div>
 					<span class="first"></span>
 					<span class="second"></span>
@@ -900,11 +959,11 @@
 						<h3>Услуги</h3>
 					</div>
 					<div class="service_definition">
-						<p><a href="#">Погрузка/Разгрузка</a></p>
-						<p><a href="#">Копка траншей</a></p>
-						<p><a href="#">Установка Ж/Б колец</a></p>
-						<p><a href="#">Уборка мусора</a></p>
-						<p><a href="#">Благоустройство</a></p>
+						<p>Погрузка/Разгрузка</p>
+						<p>Копка траншей</p>
+						<p>Установка Ж/Б колец</p>
+						<p>Уборка мусора</p>
+						<p>Благоустройство</p>
 					</div>
 					<span class="first"></span>
 					<span class="second"></span>
@@ -916,10 +975,10 @@
 						<h3>&nbsp;</h3>
 					</div>
 					<div class="service_definition">
-						<p><a href="#">Уборка снега</a></p>
-						<p><a href="#">Вывоз мусора</a></p>
-						<p><a href="#">Планировка участка</a></p>
-						<p><a href="#">Копка Котлованов</a></p>
+						<p>Уборка снега</p>
+						<p>Вывоз мусора</p>
+						<p>Планировка участка</p>
+						<p>Копка Котлованов</p>
 					</div>
 					<span class="first"></span>
 					<span class="second"></span>
@@ -948,11 +1007,11 @@
 </div>
 		<div class="edina_tm_section">
 			<div class="edina_tm_footer_wrap">
-				<p class="wow fadeIn"  data-wow-duration="1.2s">&copy; Все права защищены 2019. Разработка <a href="https://themeforest.net/user/marketify">Melowalkman</a></p>
+				<p class="wow fadeIn"  data-wow-duration="1.2s">&copy; Все права защищены 2019. Разработка <a href="mailto:melowalkman@vivaldi.net">Melowalkman</a></p>
 			</div>
 		</div>
 	</div>
-		<!-- /FOOTER -->
+	<!-- /FOOTER -->
 		
 	</div>
 	<!-- /CONTENT -->
@@ -967,10 +1026,22 @@
 <!-- / WRAPPER ALL -->
 	
 <!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script type="text/javascript">jQuery(function($){$("#phon").mask("+375 (99) 999-99-99");});</script>	
+<script src="js/mail-script.js"></script>
 <script src="js/jquery.js"></script>
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="js/plugins.js"></script>
 <script src="js/init.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LeEA68UAAAAAI4LpQgJtY3I-bG128YL62s05LNr"></script>
+  <script>
+  grecaptcha.ready(function() {
+      grecaptcha.execute('6LeEA68UAAAAAI4LpQgJtY3I-bG128YL62s05LNr', {action: 'homepage'}).then(function(token) {
+         ...
+      });
+  });
+  </script>
 <!-- /SCRIPTS -->
 
 </body>

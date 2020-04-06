@@ -100,32 +100,30 @@
   text-align: center;
   box-shadow: 0px 5px 25px rgba(0,0,0,.8);
 }
-.box h1
-{
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.box input[type = "name"],.box input[type = "phone"]
+.form-control
 {
   border: 0;
-  background: #262626;
+  background: #262626 !important;
   margin: 16px auto;
   text-align: center;
-  border: 1px solid #ed2629;
+  border: 1px solid #2ecc71;
   padding: 12px 35px;
   width: 200px;
   outline: none;
-  color: white;
   font-size: 12px;
-/*  border-radius: 24px;*/
   transition: 0.25s;
+  color: #fff;
+  border-radius: 8px;
 }
-.box input[type = "name"]:focus,.box input[type = "phone"]:focus
+.form-control:focus
 {
   width: 200px;
   border-color: #2ecc71;
 }
+.form-control:active{
+  background-color: #333333 !important;
+}
+
  .box input[type = "submit"]
  {
   border: 0;
@@ -139,6 +137,8 @@
   border-radius: 8px;
   transition: 0.25s;
   cursor: pointer;
+  padding: 12px 0px 12px 0px;
+
  }
 .box input[type = "submit"]:focus,
 .box input[type = "submit"]:hover

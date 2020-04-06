@@ -1,0 +1,11 @@
+https://www.minik.by
+
+User-agent: *
+Disallow: 
+
+User-agent: msnbot
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: yahoo-slurp
+Disallow: /
