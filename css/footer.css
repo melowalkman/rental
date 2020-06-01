@@ -453,7 +453,7 @@
 	#edina_tm_popup_blog .close{right: 0px;}
 }
 @media (max-width: 768px) {
-	.edina_tm_navigation_wrap{padding: 25px 0px;}
+	.edina_tm_navigation_wrap{padding: 35px 0px;}
 	.edina_tm_about_wrap .leftbox{display: none;}
 	.edina_tm_about_wrap .rightbox{width: 100%;padding: 0px;}
 	.edina_tm_about_wrap .rightbox .name_holder{text-align: center;}
