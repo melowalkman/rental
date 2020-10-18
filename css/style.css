@@ -1699,6 +1699,7 @@ img.svg{
     .main_phone {
 	display: block;
 	position: fixed;
+	margin-top: 1em;
 	float: left;
 	top: 0.8em;
 }
@@ -1714,7 +1715,7 @@ img.svg{
 }
 }
 @media (max-width: 480px) {
-	.edina_tm_navigation_wrap{padding: 35px 0px;}
+	.edina_tm_navigation_wrap{padding: 40px 0px;}
 	.edina_tm_top_bar_wrap ul li{margin: 0px;}
 	.edina_tm_list_wrap[data-column="2"] ul.total > li{width: 100%;}
 	.edina_tm_list_wrap[data-column="3"] ul.total > li{width: 100%;}
@@ -1745,6 +1746,7 @@ img.svg{
     .main_phone {
 	display: block;
 	position: fixed;
+	margin-top: 1em;
 	float: left;
 	top: 0.8em;
 }
